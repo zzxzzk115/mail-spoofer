@@ -51,6 +51,6 @@ REPLACE_TRACK_DOMAIN {
     import cloudflare
     import security_headers
     reverse_proxy * {
-        to gophish:80
+        to gophish:8080
     }
 }
